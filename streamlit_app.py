@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 st.title('PyDiction')
-st.title('I- Contexte et Objectifs')
+st.title('I- Présentation de l application et chargement des données')
 
 st.text("Ce projet de machine learning et de météorologie s'est déroulé dans le cadre de notre formation chez DataScientest.")
 st.text("L'outil permet de prédire la présence de pluie sur n importe quel point géographique du territoire australien à partir des données climatiques, il  est considéré qu il pleut si la quantité de pluie est strictement supérieure à 1mm")
