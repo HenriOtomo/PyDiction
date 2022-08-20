@@ -8,5 +8,6 @@ st.title('PyDiction')
 st.title('I- Contexte et Objectifs')
 
 st.text("Ce projet de machine learning et de météorologie s'est déroulé dans le cadre de notre formation chez DataScientest.")
-st.text("L'outil permet de prédire la présence de pluie (il  est considéré 'il pleut' si la quantité de pluie est strictement supérieure à 1mm), sur n’importe quel point géographique du territoire australien à partir des données précédemment citées')
+st.text("L'outil permet de prédire la présence de pluie sur n importe quel point géographique du territoire australien à partir des données climatiques, il  est considéré qu il pleut si la quantité de pluie est strictement supérieure à 1mm")
+st.text("chargez d'abord vos données, elles doivent etre de la meme forme que ce dataset ...")        
 dataset_uploaded = st.file_uploader('charger les données ')
