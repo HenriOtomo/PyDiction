@@ -9,40 +9,6 @@ import streamlit as st
 import altair as alt
 import math
 
-import numpy as np
-import pandas as pd
-import seaborn as sns
-from sklearn import model_selection, preprocessing
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import f1_score
-from sklearn.feature_selection import VarianceThreshold, SelectKBest, SelectFromModel, f_regression, mutual_info_regression, RFE, RFECV
-from sklearn.model_selection import train_test_split, KFold, GridSearchCV
-from sklearn import metrics
-import statsmodels.api 
-import statsmodels.api as sm
-from scipy.stats import pearsonr
-from sklearn import preprocessing
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
-from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import MinMaxScaler
-from scipy.stats import chi2_contingency
-from sklearn import model_selection, preprocessing
-from sklearn.neighbors import KNeighborsClassifier
-from imblearn.over_sampling import RandomOverSampler, SMOTE
-from imblearn.under_sampling import RandomUnderSampler,  ClusterCentroids
-from sklearn.metrics import roc_curve,auc
-from sklearn.metrics import roc_auc_score
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import f1_score
-from imblearn.over_sampling import RandomOverSampler, SMOTE
-from imblearn.under_sampling import RandomUnderSampler,  ClusterCentroids
-from sklearn.decomposition import PCA
-from sklearn.metrics import mean_absolute_error as mae
-
 #Code pour la préparation des données et la visualisation :
 
 #introduction pour l'utilisateur et chargement des données
