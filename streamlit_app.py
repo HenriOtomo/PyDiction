@@ -40,7 +40,6 @@ from sklearn.metrics import roc_curve,auc
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import f1_score
-!pip install imblearn
 from imblearn.over_sampling import RandomOverSampler, SMOTE
 from imblearn.under_sampling import RandomUnderSampler,  ClusterCentroids
 from sklearn.decomposition import PCA
