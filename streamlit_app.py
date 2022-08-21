@@ -8,6 +8,7 @@ import streamlit as st
 
 import altair as alt
 import math
+import pandas as pd
 
 #Code pour la préparation des données et la visualisation :
 
@@ -17,8 +18,8 @@ st.title("Présentation de l' application et chargement des données :")
 st.text("Ce projet de machine learning et de météorologie s'est déroulé dans le cadre de notre formation chez DataScientest.")
 st.text("L'outil permet de prédire la présence de pluie à J+1 sur n importe quel point géographique du territoire australien à partir des données climatiques, il  est considéré qu il pleut si la quantité de pluie est strictement supérieure à 1mm")
 st.text("chargez d'abord vos données, elles doivent être de la meme forme que ce dataset https://www.kaggle.com/jsphyg/weather-dataset-rattle-package sur lequel a été entrainé notre modèle")        
-df = st.file_uploader('charger les données en cliquant sur Browser')
-
+df = pd.read_csv(st.file_uploader('charger les données en cliquant sur Browser'))
+st.dataframe(df)
 #visualisation des variables pour l'utilisateur et guide pour la sélection des variables
 st.text("Voici les variables de votre dataset :")
-display(df.columns)
+st.dataframe(df, 5, 5)
