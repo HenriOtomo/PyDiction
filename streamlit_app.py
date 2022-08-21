@@ -33,7 +33,6 @@ from sklearn.preprocessing import MinMaxScaler
 from scipy.stats import chi2_contingency
 from sklearn import model_selection, preprocessing
 from sklearn.neighbors import KNeighborsClassifier
-!pip install imblearn
 from imblearn.over_sampling import RandomOverSampler, SMOTE
 from imblearn.under_sampling import RandomUnderSampler,  ClusterCentroids
 from sklearn.metrics import roc_curve,auc
