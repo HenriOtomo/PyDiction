@@ -1,11 +1,14 @@
-from collections import namedtuple
-import altair as alt
-import math
-import pandas as pd
-import streamlit as st
+
 
 ###cellule d'imports (spécifique au code) (tous regroupés ici pour une lecture allégée du code ensuite )
-%matplotlib inline
+
+from collections import namedtuple
+
+import streamlit as st
+
+import altair as alt
+import math
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
