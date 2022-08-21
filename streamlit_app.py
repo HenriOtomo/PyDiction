@@ -22,7 +22,6 @@ from sklearn.metrics import f1_score
 from sklearn.feature_selection import VarianceThreshold, SelectKBest, SelectFromModel, f_regression, mutual_info_regression, RFE, RFECV
 from sklearn.model_selection import train_test_split, KFold, GridSearchCV
 from sklearn import metrics
-!pip install statsmodels 
 import statsmodels.api 
 import statsmodels.api as sm
 from scipy.stats import pearsonr
